@@ -23,78 +23,78 @@
   --spacing-s: -0.08em;
   --spacing-m: -0.02em;
 
-  /* Light Mode Colors (Default) */
-  --bg: #ffffff;
-  --text-primary: rgba(0, 0, 0, 0.85);
-  --text-secondary: rgba(0, 0, 0, 0.4);
-  --text-tertiary: rgba(0, 0, 0, 0.24);
-  --border: rgba(0, 0, 0, 0.1);
-  --selection: rgba(0, 0, 0, 0.08);
-  --code-bg: rgba(0, 0, 0, 0.04);
-  --mark: #f3ffc4;
+  /* Catppuccin Latte defaults */
+  --bg: #eff1f5; /* Base */
+  --text-primary: #4c4f69; /* Text */
+  --text-secondary: #5c5f77; /* Subtext 1 */
+  --text-tertiary: #6c6f85; /* Subtext 0 */
+  --border: #ccd0da; /* Surface 0 */
+  --selection: #acb0be; /* Surface 2 */
+  --code-bg: #bcc0cc; /* Surface 1 */
+  --mark: rgba(223, 142, 29, 0.2); /* Yellow with alpha for readability */
 
-  /* Syntax Theme  */
-  --astro-code-foreground: rgba(0, 0, 0, 0.85);
-  --astro-code-background: rgba(0, 0, 0, 0.03);
-  --astro-code-token-constant: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string: rgba(0, 0, 0, 0.85);
-  --astro-code-token-comment: rgba(0, 0, 0, 0.35);
-  --astro-code-token-keyword: rgba(0, 0, 0, 0.55);
-  --astro-code-token-parameter: rgba(0, 0, 0, 0.85);
-  --astro-code-token-function: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string-expression: rgba(0, 0, 0, 0.55);
-  --astro-code-token-punctuation: rgba(0, 0, 0, 0.55);
-  --astro-code-token-link: rgba(0, 0, 0, 0.55);
+  /* Syntax Theme */
+  --astro-code-foreground: #4c4f69;
+  --astro-code-background: #e6e9ef; /* Mantle */
+  --astro-code-token-constant: #dd7878; /* Flamingo */
+  --astro-code-token-string: #40a02b; /* Green */
+  --astro-code-token-comment: #8c8fa1; /* Overlay 1 */
+  --astro-code-token-keyword: #8839ef; /* Mauve */
+  --astro-code-token-parameter: #04a5e5; /* Sky */
+  --astro-code-token-function: #1e66f5; /* Blue */
+  --astro-code-token-string-expression: #fe640b; /* Peach */
+  --astro-code-token-punctuation: #6c6f85; /* Subtext 0 */
+  --astro-code-token-link: #179299; /* Teal */
 }
 
-/* Light Mode (Explicit) */
+/* Light Mode (Explicit Catppuccin Latte) */
 html.light {
-  --bg: #ffffff;
-  --text-primary: rgba(0, 0, 0, 0.85);
-  --text-secondary: rgba(0, 0, 0, 0.4);
-  --text-tertiary: rgba(0, 0, 0, 0.24);
-  --border: rgba(0, 0, 0, 0.1);
-  --selection: rgba(0, 0, 0, 0.08);
-  --code-bg: rgba(0, 0, 0, 0.04);
-  --mark: #f3ffc4;
+  --bg: #eff1f5;
+  --text-primary: #4c4f69;
+  --text-secondary: #5c5f77;
+  --text-tertiary: #6c6f85;
+  --border: #ccd0da;
+  --selection: #acb0be;
+  --code-bg: #bcc0cc;
+  --mark: rgba(223, 142, 29, 0.2);
 
-  /* Syntax Theme  */
-  --astro-code-foreground: rgba(0, 0, 0, 0.85);
-  --astro-code-background: rgba(0, 0, 0, 0.03);
-  --astro-code-token-constant: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string: rgba(0, 0, 0, 0.85);
-  --astro-code-token-comment: rgba(0, 0, 0, 0.35);
-  --astro-code-token-keyword: rgba(0, 0, 0, 0.5);
-  --astro-code-token-parameter: rgba(0, 0, 0, 0.85);
-  --astro-code-token-function: rgba(0, 0, 0, 0.85);
-  --astro-code-token-string-expression: rgba(0, 0, 0, 0.55);
-  --astro-code-token-punctuation: rgba(0, 0, 0, 0.55);
-  --astro-code-token-link: rgba(0, 0, 0, 0.55);
+  /* Syntax Theme */
+  --astro-code-foreground: #4c4f69;
+  --astro-code-background: #e6e9ef;
+  --astro-code-token-constant: #dd7878;
+  --astro-code-token-string: #40a02b;
+  --astro-code-token-comment: #8c8fa1;
+  --astro-code-token-keyword: #8839ef;
+  --astro-code-token-parameter: #04a5e5;
+  --astro-code-token-function: #1e66f5;
+  --astro-code-token-string-expression: #fe640b;
+  --astro-code-token-punctuation: #6c6f85;
+  --astro-code-token-link: #179299;
 }
 
-/* Dark Mode (Explicit) */
+/* Dark Mode (Explicit Catppuccin Mocha) */
 html.dark {
-  --bg: #1c1c1c;
-  --text-primary: rgba(255, 255, 255, 0.9);
-  --text-secondary: rgba(255, 255, 255, 0.4);
-  --text-tertiary: rgba(255, 255, 255, 0.24);
-  --border: rgba(255, 255, 255, 0.1);
-  --selection: rgba(255, 255, 255, 0.08);
-  --code-bg: rgba(255, 255, 255, 0.04);
-  --mark: #545b37;
+  --bg: #1e1e2e; /* Base */
+  --text-primary: #cdd6f4; /* Text */
+  --text-secondary: #bac2de; /* Subtext 1 */
+  --text-tertiary: #a6adc8; /* Subtext 0 */
+  --border: #45475a; /* Surface 1 */
+  --selection: #585b70; /* Surface 2 */
+  --code-bg: #313244; /* Surface 0 */
+  --mark: rgba(249, 226, 175, 0.35); /* Yellow */
 
-  /* Syntax Theme  */
-  --astro-code-foreground: rgba(255, 255, 255, 0.9);
-  --astro-code-background: rgba(255, 255, 255, 0.03);
-  --astro-code-token-constant: rgba(255, 255, 255, 0.9);
-  --astro-code-token-string: rgba(255, 255, 255, 0.9);
-  --astro-code-token-comment: rgba(255, 255, 255, 0.35);
-  --astro-code-token-keyword: rgba(255, 255, 255, 0.55);
-  --astro-code-token-parameter: rgba(255, 255, 255, 0.9);
-  --astro-code-token-function: rgba(255, 255, 255, 0.9);
-  --astro-code-token-string-expression: rgba(255, 255, 255, 0.55);
-  --astro-code-token-punctuation: rgba(255, 255, 255, 0.55);
-  --astro-code-token-link: rgba(255, 255, 255, 0.55);
+  /* Syntax Theme */
+  --astro-code-foreground: #cdd6f4;
+  --astro-code-background: #181825; /* Mantle */
+  --astro-code-token-constant: #f38ba8; /* Red */
+  --astro-code-token-string: #a6e3a1; /* Green */
+  --astro-code-token-comment: #7f849c; /* Overlay 1 */
+  --astro-code-token-keyword: #cba6f7; /* Mauve */
+  --astro-code-token-parameter: #89dceb; /* Sky */
+  --astro-code-token-function: #89b4fa; /* Blue */
+  --astro-code-token-string-expression: #fab387; /* Peach */
+  --astro-code-token-punctuation: #9399b2; /* Overlay 2 */
+  --astro-code-token-link: #94e2d5; /* Teal */
 }
 
 html {

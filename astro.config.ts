@@ -27,7 +27,7 @@ export default defineConfig({
   },
   markdown: {
     shikiConfig: {
-      theme: 'css-variables',
+      theme: 'catppuccin-mocha',
       wrap: false
     },
     remarkPlugins: [remarkMath, remarkDirective, remarkEmbeddedMedia, remarkReadingTime, remarkTOC],
